@@ -1,0 +1,37 @@
+<html>
+<head>
+    <script>
+        function readData(){
+       
+    var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200){
+                document.getElementById("info").innerHTML =this.responseText;
+            }
+        }
+        xhttp.open("GET", "html.txt",true);
+        xhttp.send();
+        }
+        function hide(){
+          var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function(){
+            if(this.readyState == 4 && this.status == 200){
+                document.getElementById("info").innerHTML =this.responseText;
+            }
+        }
+        xhttp.open("GET", "ajax.txt",true);
+        xhttp.send();
+        }
+        }
+   
+    </script>
+</head>
+<body>
+<h1>Introduction to AJAX</h1>
+<button type="button" onclick="readData()">HTML stands for</button>
+    <button type="button" onclick="hide()">AJAX stands for </button>
+    <div id="info">
+   
+    </div>
+</body>
+</html>

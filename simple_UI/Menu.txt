@@ -1,0 +1,12 @@
+To show date 			press 1
+To Open the ipconfig 		press 2
+To Open calculator 		press 3
+To open file explorer 		press 4
+To open google chrome 		press 5
+To Open System Information  	press 6
+To open notepad 		press 7
+To Open Windows Registry 	press 8
+To Access Network Connections 	press 9 
+To Open Device Manager 		press 10
+To open control panel 		press 11
+To exit 			press 0
